@@ -16,8 +16,9 @@ Project Folder Structure:
 Run the test:
 -------------
 1. Java 11 and Maven should be installed in your system and path should be set.
-2. Navigate to the Project directory and execute mvn test or mvn clean test to run the test.
-3. After the run reports and logs can be found in the result directory in the same project folder.
-4. Some test will fail as there are bugs in the API.
+2. Github Actions Worflow is also setup so you can run the project from their manually. Reports and logs are generated as part of artifacts.
+3. Alternatively after downloading/cloing the project you navigate to the Project directory and execute mvn test or mvn clean test to run the test.
+4. After the run reports and logs can be found in the result directory in the same project folder.
+5. Some test will fail as there are bugs in the API.
  
 
