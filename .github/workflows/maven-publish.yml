@@ -35,9 +35,11 @@ jobs:
         
     - name: run tests
       run: mvn test -s $GITHUB_WORKSPACE/settings.xml
-    - name: Cache
-      uses: actions/cache@v3.2.3
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v3
       with:
+        name: reportAndLogs
         path: result/
+        retention-days: 1
       
       
