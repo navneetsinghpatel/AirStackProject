@@ -1,0 +1,13 @@
+verifyEthereumAddressFromTokensAPIResult,1,,100,
+getTokensBasedOnEthereumAddress,1,0x60e4d786628fea6478f785a6d7e704777c86a7c6,10,
+verifyMaxLimitInputValue,1,,100,
+verifyThatQueryWorksWithoutCursor,1,0x60e4d786628fea6478f785a6d7e704777c86a7c6,10,
+verifyThatQueryWorksWithoutLimit,1,0x60e4d786628fea6478f785a6d7e704777c86a7c6,,
+verifyThatQueryWorksWithoutAddress,1,,10,
+getTokensBasedOnNonExistingEthereumAddress,1,0x60e4d786628fea6478f785a6d7e7047123456789,10,
+verifyNextPageCursor,1,0x60e4d786628fea6478f785a6d7e704777c86a7c6,10,
+verifyTokensAPIWithInvalidNegativeLimitInput,1,,-1,
+verifyTokensAPIWithInvalidZeroLimitInput,1,,0,
+verifyTokenAPIWithInvalidAddressValueInput,1,60e4d786628fea6478f785a6d7e123777c86a7c6,10,
+verifyTokenAPIWithInvalidCursorValueInput,1,,10,invalidcursor
+verifyTokenAPIWithInvalidLimitValueInput,1,,101,

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity" preserve-order="true" verbose="2">
+    <!--parallel="classes" thread-count="3" data-provider-thread-count="10"-->
+    <listeners>
+        <listener class-name="reporters.TestListener" />
+    </listeners>
+    <test name="Sanity">
+        <classes>
+            <class name="tests.tokens.PositiveTokensTests" />
+            <class name="tests.tokens.NegativeTokenTests" />
+        </classes>
+    </test>
+</suite>

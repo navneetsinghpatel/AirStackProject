@@ -1,0 +1,4 @@
+{
+  "queryWithIDAddressAndPageInfo": "query ($ input: TokensInput !) { Tokens(input: $ input) { tokens { id address } pageInfo { nextCursor prevCursor } } }",
+  "queryWithIDAddress": "query ($ input: TokensInput !) { Tokens(input: $ input) { tokens { id address } } }"
+}
